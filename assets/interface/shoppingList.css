@@ -1,0 +1,247 @@
+.iphood-shopping-list {
+	width: 100%;
+}
+
+.iphood-food-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	position: relative;
+}
+
+
+.button-27 {
+  appearance: none;
+  background-color: #d40f0f;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 30px;
+  min-width: 0;
+  outline: none;
+  
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+  will-change: transform;
+  transform: translate(50%);
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+  
+
+  .ingredients-form{
+	color: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	max-height: 80vh;
+	max-width: 100vh;
+	
+	  padding: 10px 20px;
+	  background: #d17116fb;
+	  margin: 10px auto;
+	  padding: 20px;
+
+	  border-radius: 8px;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  display: box;
+  }
+  .ingredients-form fieldset{
+	  border: none;
+  }
+  .ingredients-form legend {
+	  font-size: 1.4em;
+	  margin-bottom: 10px;
+  }
+  .ingredients-form label {
+	  display: inline-block;
+	  margin-bottom: 8px;
+  }
+  .ingredients-form input[type="text"],
+  .ingredients-form input[type="date"],
+  .ingredients-form input[type="datetime"],
+  .ingredients-form input[type="email"],
+  .ingredients-form input[type="number"],
+  .ingredients-form input[type="search"],
+  .ingredients-form input[type="time"],
+  .ingredients-form input[type="url"],
+  .ingredients-form textarea,
+  .ingredients-form select {
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  background: rgba(255,255,255,.1);
+	  border: none;
+	  border-radius: 4px;
+	 
+	  margin: 0;
+	  outline: 0;
+	  padding: 10px;
+	  width: 100%;
+	  box-sizing: border-box; 
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box; 
+	  background-color: #e8eeef;
+	  color:#8a97a0;
+	  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	  margin-bottom: 30px;
+  }
+  .ingredients-form input[type="text"]:focus,
+  .ingredients-form input[type="date"]:focus,
+  .ingredients-form input[type="datetime"]:focus,
+  .ingredients-form input[type="email"]:focus,
+  .ingredients-form input[type="number"]:focus,
+  .ingredients-form input[type="search"]:focus,
+  .ingredients-form input[type="time"]:focus,
+  .ingredients-form input[type="url"]:focus,
+  .ingredients-form textarea:focus,
+  .ingredients-form select:focus{
+	  background: #d2d9dd;
+  }
+  .ingredients-form select{
+	  -webkit-appearance: menulist-button;
+	  
+  }
+  .ingredients-form .number {
+	  background: #ae2828;
+	  color: #fff;
+	  height: 30px;
+	  width: 30px;
+	  display: inline-block;
+	  font-size: 0.8em;
+	  margin-right: 4px;
+	  line-height: 30px;
+	  text-align: center;
+	  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	  border-radius: 15px 15px 15px 0px;
+  }
+  
+  .ingredients-form input[type="submit"],
+  .ingredients-form input[type="button"]
+  {
+	  position: relative;
+	  display: block;
+	  padding: 19px 39px 18px 39px;
+	  color: #FFF;
+	  margin: 0 auto;
+	  background: #bd3838;
+	  font-size: 18px;
+	  text-align: center;
+	  font-style: normal;
+	  width: 100%;
+	  margin-bottom: 10px;
+  }
+
+
+  input[type="radio"] {
+	-webkit-appearance: none;
+	appearance: none;
+
+	margin: 0;
+  
+	font: inherit;
+	color: currentColor;
+	width: 1.15em;
+	height: 1.15em;
+	border: 0.15em solid currentColor;
+	border-radius: 50%;
+	transform: translateY(-0.075em);
+  
+	display: grid;
+	place-content: center;
+  }
+  
+  input[type="radio"]::before {
+	content: "";
+	width: 0.65em;
+	height: 0.65em;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: 120ms transform ease-in-out;
+	box-shadow: inset 1em 1em var(black);
+	background-color: CanvasText;
+  }
+  
+  input[type="radio"]:checked::before {
+	transform: scale(1);
+  }
+  
+  input[type="radio"]:focus {
+	outline: max(2px, 0.15em) solid currentColor;
+	outline-offset: max(2px, 0.15em);
+  }
+  .options
+  {
+	display:flex;
+	gap: 3em;
+  }
+  .button-28 {
+	appearance: none;
+	background-color: #05852b;
+	border: 2px solid #1A1A1A;
+	border-radius: 15px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	margin: 0;
+	min-height: 30px;
+	min-width: 0;
+	outline: none;
+	
+	text-align: center;
+	text-decoration: none;
+	transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	will-change: transform;
+	transform: translate(50%);
+	padding: 0.5em;
+  }
+  
+  .button-28:disabled {
+	pointer-events: none;
+  }
+  
+  .button-28:hover {
+	box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  
+  }
+  
+  .button-28:active {
+	box-shadow: none;
+	transform: translateY(0);
+  }
+  
